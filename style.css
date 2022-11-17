@@ -1,4 +1,22 @@
+* {
+    font-family: roboto, sans-serif; 
+}
+
 header {
     background-color: #1F2937;
     min-height: 300px;
+}
+
+.container-one {
+    display: flex;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB
 }
