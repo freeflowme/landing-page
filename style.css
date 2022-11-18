@@ -11,6 +11,12 @@ header {
     display: flex;
 }
 
+.links-container {
+    display: flex;
+    margin-left: auto;
+    gap: 25px; 
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -18,5 +24,5 @@ header {
 
 .header-link {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
