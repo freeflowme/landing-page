@@ -4,7 +4,7 @@
 
 header {
     background-color: #1F2937;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .container-one {
@@ -30,6 +30,7 @@ header {
 .container-two {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .hero-main {
@@ -54,4 +55,14 @@ button {
     background-color: grey;
     align-items: center;
     justify-content: center;
+    flex: 1;
+}
+
+.container-three {
+    display: flex;
+    margin-left: 75px;
+    margin-top: 75px;
+    margin-right: 35px;
+    margin-bottom: 75px; 
+    gap: 25px; 
 }
