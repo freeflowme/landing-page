@@ -9,6 +9,9 @@ header {
 
 .container-one {
     display: flex;
+    padding-top: 15px;
+    margin-left: 100px;
+    margin-right: 75px;
 }
 
 .links-container {
@@ -31,6 +34,8 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1;
+    max-width: 450px;
+    gap: 5px;
 }
 
 .hero-main {
@@ -46,6 +51,9 @@ header {
 
 button {
     background-color: #3882F6;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .image-container {
@@ -56,13 +64,14 @@ button {
     align-items: center;
     justify-content: center;
     flex: 1;
+    max-width: 500px;
 }
 
 .container-three {
     display: flex;
-    margin-left: 75px;
+    margin-left: 100px;
     margin-top: 75px;
-    margin-right: 35px;
+    margin-right: 75px;
     margin-bottom: 75px; 
-    gap: 25px; 
+    gap: 50px; 
 }
