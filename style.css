@@ -42,3 +42,16 @@ header {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+button {
+    background-color: #3882F6;
+}
+
+.image-container {
+    display: flex;
+    min-height: 100px;
+    min-width: 150px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
