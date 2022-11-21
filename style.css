@@ -125,7 +125,7 @@ h1 {
 
 .quote-container {
     background-color: #E5E7EB;
-    height: 350px; 
+    height: 300px; 
     padding-top: 100px; 
     display: flex;
     flex-direction: column;
@@ -144,6 +144,47 @@ h1 {
     font-weight: 900;
     align-self: flex-end; 
     margin-right: 300px; 
+}
+
+.action-container {
+    height: 150px;
+    background-color: #3882F6;
+    margin: 100px; 
+    border-radius: 10px;
 
 }
 
+.inside-container {
+    display: flex;
+    justify-content: center; 
+    padding-top: 45px;
+    gap: 150px; 
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom-button {
+    font-size: 20px; 
+    font-weight: 500; 
+    height: 40px; 
+    width: 140px; 
+    border: 2px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+.action-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.action-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
